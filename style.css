@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+  font-family: 'Questrial', sans-serif;
+  color: #f5e050;
+  text-align: center;
+}
+
+.centralizado {
+  text-align: center;
+}
+
+#titulo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.imagem-central img {
+  width: 240px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+#contagem ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#contagem li {
+  font-size: 1.9rem;
+  margin: 10px 0;
+}
+
+#contagem span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+  #titulo {
+    font-size: 1.8rem;
+  }
+
+  .imagem-central img {
+    width: 180px;
+    margin-bottom: 15px;
+  }
+
+  #contagem li {
+    font-size: 1.6rem;
+    margin: 6px 0;
+  }
+}
